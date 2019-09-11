@@ -1,7 +1,7 @@
 [Aufnahme]
 Anregung: SINC-Funktion mi 100kHz
 Sensoren: 1 Sender und 2 Empfänger
-Proben: TODO
+Proben:   siehe Proben.xlsx
 
 [Audiodateien]
 srate = 22050Hz (Ist falsch!)
@@ -17,11 +17,10 @@ tme: Originaldateien
 wav: Wav-Dateien (Nicht für alle Aufnahmen vorhanden!)
 son: Sonagramme  (Nicht für alle Aufnahmen vorhanden!)
 
+MT1-8,OT: Session
 DDDDDD: Datum der Aufnahme
 
-MT1-8,OT: TODO
-
-NNN: Proben-ID 
+NNN: Probennummer
 
 ch1,ch2: Empfängersensor 1 oder 2
 ch3: TODO
