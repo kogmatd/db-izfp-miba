@@ -1,10 +1,10 @@
 [Aufnahme]
- Anregung: SINC-Funktion mi 100kHz
+ Anregung: verschiedene, siehe Aufnahmen.xlsx
  Sensoren: 1 Sender und 2 Empfänger
  Proben:   siehe Proben.xlsx
 
 [Audiodateien]
- srate = ??, in wav: 22050Hz (Ist falsch!)
+ srate = 1 MHz (in wav: 22050Hz - Ist falsch!)
  chs   = 1
  enc   = float32 (tme,son), int16(wav), ADC: 12Bit
  len   = 16384 Samples (ch1+ch2)
@@ -28,7 +28,10 @@
             (Dimension 225x1024; Nicht für alle Aufnahmen vorhanden!)
             Import: with open(fn,'rb') as f: arr=np.frombuffer(f.read(),'>f4').reshape(-1,1024)
 
- MT1-8,OT: Session
+ MT1-8: Session mit verschienden Messparameter
+        siehe Messparamter in Aufnahme.xlsx
+ OT:    Testmessungen (nicht verwenden!)
+ 
  DDDDDD: Datum der Aufnahme
 
  NNN: Probennummer
@@ -38,6 +41,9 @@
 
 
 [Beschreibung und Dokumentation]
- - common/doc auf S:
+ - Proben.xlsx
+ - Aufnahmen.xlsx
+ - common/doc
  - Diss Tschöpe, Kapitel 4.3 + Tabelle A.2+3 im Anhang
+ - Visualisierung mit Laser-Vibrometer in common/doc/LVib auf S:
 
